@@ -1,0 +1,49 @@
+.Eightball-container {
+  text-align: center;
+}
+.Eightball {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 6px rgb(255, 255, 255);
+  cursor: pointer;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.Eightball-text {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Eightball-reset {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: rgb(0, 64, 104);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Eightball-reset:hover {
+  background-color: royalblue;
+}
+
+.Eightball-record-keeping{
+  margin-top: 20px;
+  font-size: 1rem;
+  color: rgb(0, 45, 104);
+}
+
